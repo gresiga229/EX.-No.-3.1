@@ -17,13 +17,18 @@ To create a 3D model from given orthographic projection.
 
 1. Open Fusion 360 and select **Design → Solid** workspace.
 2. Click **Create Sketch** and select the Front (XZ) plane.
-3. Choose **Sketch → Line** and draw the main rectangular portion of the side profile with a height of 32 mm.
-4. Maintain a distance of 36.28 mm from the centre of the rounded end to the rear shoulder.
-5. Choose **Sketch → Arc → 3-Point Arc** and construct the semicircular front portion with a radius of 16 mm (R16).
-6. Connect the arc to the straight edges to complete the closed side profile.
-7. Click **Finish Sketch**.
-8. Select **Extrude**, choose the closed profile and enter 40 mm as the extrusion distance.
-9. Press Enter to create the main solid body.
+3. <img width="216" height="171" alt="Screenshot 2026-11-11 204524" src="https://github.com/user-attachments/assets/c3238025-f792-4c1e-97e5-516f5bdd081f" />
+
+4. Choose **Sketch → Line** and draw the main rectangular portion of the side profile with a height of 32 mm.
+5. <img width="542" height="767" alt="Screenshot 2026-11-11 204541" src="https://github.com/user-attachments/assets/cae4195c-055d-4c6f-a9b9-c01125c02e98" />
+
+6. Maintain a distance of 36.28 mm from the centre of the rounded end to the rear shoulder.
+7. Choose **Sketch → Arc → 3-Point Arc** and construct the semicircular front portion with a radius of 16 mm (R16).
+8. Connect the arc to the straight edges to complete the closed side profile.
+9. Click **Finish Sketch**.
+10. Select **Extrude**, choose the closed profile and enter 40 mm as the extrusion distance.
+11. 
+12. Press Enter to create the main solid body.
 
 ### Step 2: Create the central gap between the fork arms
 
@@ -41,12 +46,14 @@ To create a 3D model from given orthographic projection.
 
 19. Select the side face of the fork body and click **Create Sketch**.
 20. Choose **Sketch → Circle → Center Diameter Circle**.
-21. Place the centre of the circle at the centre of the rounded end.
-22. Enter 16 mm as the diameter (Ø16).
-23. Click **Finish Sketch**.
-24. Select **Extrude**, choose the circular profile and set the operation to **Cut**.
-25. Extend the cut through the full 40 mm width of the body.
-26. Press Enter to create the circular holes through both fork arms.
+21. <img width="517" height="395" alt="Screenshot 2026-11-11 204552 - Copy" src="https://github.com/user-attachments/assets/5e7415d2-a58b-47e4-99a6-ee4fc50a0650" />
+
+22. Place the centre of the circle at the centre of the rounded end.
+23. Enter 16 mm as the diameter (Ø16).
+24. Click **Finish Sketch**.
+25. Select **Extrude**, choose the circular profile and set the operation to **Cut**.
+26. Extend the cut through the full 40 mm width of the body.
+27. Press Enter to create the circular holes through both fork arms.
 
 ### Step 4: Create the rear cylindrical shaft
 
@@ -56,9 +63,13 @@ To create a 3D model from given orthographic projection.
 30. Enter 18 mm as the diameter (Ø18).
 31. Click **Finish Sketch**.
 32. Select **Extrude** and choose the circular profile.
-33. Enter 32 mm as the extrusion distance, extending outward from the rear face.
-34. Select **Join** as the operation to connect the cylindrical shaft to the main body.
-35. Press Enter to complete the shaft.
+33. <img width="460" height="617" alt="Screenshot 2026-11-11 212828" src="https://github.com/user-attachments/assets/c042070e-8654-4641-830b-04df93e2d9d7" />
+
+34. Enter 32 mm as the extrusion distance, extending outward from the rear face.
+35. Select **Join** as the operation to connect the cylindrical shaft to the main body.
+36. <img width="230" height="311" alt="Screenshot 2026-11-16 090622" src="https://github.com/user-attachments/assets/a917b2fe-8f4c-4869-a435-aec5a0cbc68b" />
+
+37. Press Enter to complete the shaft.
 
 ### Step 5: Final inspection and drawing
 
